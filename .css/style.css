@@ -856,6 +856,7 @@ template {
   border-radius: 4px;
   background-color: #EC1F46;
   color: #fff;
+  border: none;
 }
 
 .map {
