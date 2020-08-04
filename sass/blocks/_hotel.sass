@@ -28,6 +28,12 @@
         line-height: 15px
         margin-top: 0
     &-grid 
+        display: flex
+        justify-content: space-between
+    &-right
+        display: flex
+        flex-direction: column
+        justify-content: space-between
         
         
 
@@ -99,4 +105,76 @@
             background-repeat: no-repeat
             background-position: center
             background-size: 10px
+.booking
+    width: 350px
+    min-height: 210px
+    background: $dark
+    color: $white
+    border-radius: 8px
+    padding: 28px
+    font-family: 'Nunito', san-serif
+    &__info
+        display: flex
+        justify-content: space-between
+    &__price
+        display: flex
+        flex-direction: column
+    &__start
+        font-weight: normal
+        font-size: 10px
+        line-height: 14px
+        margin-bottom: 0
+    &__tag
+        font-weight: 800
+        font-size: 24px
+        line-height: 33px
+    &__per-room
+        font-weight: normal
+        font-size: 12px
+        line-height: 16px
+    &__room
+        margin-bottom: 4px
 
+    &__text
+        font-size: 12px
+        line-height: 16px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 8px
+    &__description
+        margin-left: 9px
+    &__call-center
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 9px
+        margin-bottom: 17px
+    &__quick
+        font-weight: 600
+        font-size: 18px
+        line-height: 25px
+    &__number
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__numbers
+        color: $white
+        text-decoration: none
+        margin-left: 8px
+        font-weight: 600
+        font-size: 18px
+        line-height: 25px
+    &__button
+        width: 100%
+        min-height: 45px
+        font-weight: 600
+        font-size: 14px
+        line-height: 19px
+        border-radius: 4px
+        background-color: $primary-color
+        color: $white
+.map
+    width: 347px
+    height: 213px
+    border-radius: 10px
