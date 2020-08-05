@@ -942,6 +942,7 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
+  color: #BDBDBD;
 }
 
 .subscribe__button {
@@ -953,6 +954,10 @@ template {
   background-color: #EC1F46;
   color: #fff;
   min-width: 65px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .reviews {
@@ -961,9 +966,9 @@ template {
 
 .reviews__title {
   font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 38px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 70px;
@@ -1093,7 +1098,7 @@ template {
   line-height: 160%;
   text-align: justify;
   max-width: 537px;
-  margin: auto;
+  margin-top: 32px;
 }
 
 @media (max-width: 1200px) {
@@ -1307,6 +1312,10 @@ template {
   }
   .hotel-slider {
     height: 180px;
+  }
+  .reviews__title {
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 /*# sourceMappingURL=style.css.map */
