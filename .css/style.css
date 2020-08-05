@@ -942,7 +942,10 @@ template {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-  color: #BDBDBD;
+}
+
+.subscribe__input:placeholder {
+  color: #bdbdbd;
 }
 
 .subscribe__button {
@@ -955,7 +958,7 @@ template {
   color: #fff;
   min-width: 65px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 12px;
   line-height: 15px;
 }
@@ -1282,6 +1285,9 @@ template {
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
     margin-right: -65px;
+  }
+  .reviews__title {
+    margin-bottom: 50px;
   }
 }
 
